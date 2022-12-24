@@ -218,7 +218,7 @@ sudo cp -R $ruta/Components/Neofetch ~/.config/
 # Removiendo Repositorio
 
 rm -rf ~/github
-rm -rfv $ruta
+
 
 # Mensaje de Instalado
 
