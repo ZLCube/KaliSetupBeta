@@ -187,8 +187,8 @@ xfconf-query --create -c xfce4-session -p /general/LockCommand -t string -s "i3l
 # Neofetch
 
 sudo apt install -y neofetch
-sudo rm -Rv ~/.config/Neofetch
-sudo cp -R $ruta/Components/Neofetch ~/.config/
+sudo rm -Rv ~/.config/neofetch
+sudo cp -R $ruta/Components/neofetch ~/.config/
 
 # EWW widget
 
