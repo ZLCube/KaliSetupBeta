@@ -1,7 +1,7 @@
 favorites=thunar.desktop,telegramdesktop.desktop,xfce4-taskmanager.desktop,firefox-esr.desktop,xfce4-terminal-emulator.desktop,kitty.desktop,gparted.desktop
 recent=
 button-title=Menu
-button-icon=~/.assets/icons/shield.svg
+button-icon=/home/kali/.assets/icons/shield.svg
 button-single-row=false
 show-button-title=false
 show-button-icon=true
