@@ -34,7 +34,7 @@ cd ~/KaliSetup
 
 # Instalamos paquetes adionales
 
-sudo apt install -y kitty feh scrot scrub rofi xclip bat locate ranger neofetch wmname acpi sxhkd imagemagick
+sudo apt install -y kitty feh scrot scrub rofi xclip bat locate ranger wmname acpi sxhkd imagemagick
 
 # Instalando p10k
 
@@ -175,7 +175,7 @@ sudo apt install -y libkeybinder-3.0-dev
 cd $ruta
 git clone https://github.com/mdgaziur/findex.git
 cd findex
-./installer.sh
+sudo ./installer.sh
 
 # i3lock
 
@@ -186,6 +186,8 @@ xfconf-query --create -c xfce4-session -p /general/LockCommand -t string -s "i3l
 
 # Neofetch
 
+sudo apt install -y neofetch
+sudo rm -Rv ~/.config/Neofetch
 sudo cp -R $ruta/Components/Neofetch ~/.config/
 
 # EWW widget
