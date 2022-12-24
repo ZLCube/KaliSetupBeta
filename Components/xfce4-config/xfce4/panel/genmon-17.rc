@@ -1,4 +1,4 @@
-Command=~/genmon-scripts/mem.sh
+Command=/home/kali/genmon-scripts/mem.sh
 UseLabel=0
 Text=(genmon)
 UpdatePeriod=750
