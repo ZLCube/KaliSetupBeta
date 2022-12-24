@@ -4,7 +4,7 @@
 
 git clone https://github.com/ZLCube/KaliSetupBeta.git
 
-cd KaliSetup
+cd KaliSetupBeta
 
 chmod +x install.sh
 
