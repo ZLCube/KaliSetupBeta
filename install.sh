@@ -206,6 +206,9 @@ sudo cp -R $ruta/Components/eww ~/.config/
 
 notify-send "Kali configurado"
 
+sudo mv $ruta/ManualSteps.txt ~/
+sudo rm -R KaliSetupBeta
+
 # Final steps (Manual Setings)
 echo "AVISO 1 Abre el archivo ManualSteps.txt y sigue los pasos"
 sleep 10
@@ -216,7 +219,9 @@ sleep 10
 
 xfce4-panel &
 
-cat ManualSteps.txt 
+cat ~/ManualSteps.txt 
+
+
 echo "La maquina se reiniciara en 30 segundos"
 sleep 30 
 
