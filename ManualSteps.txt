@@ -1,24 +1,21 @@
 Manual Steps
 
-1) Go to settings manager, appearance and select style Everblush_GTK_THEME
-2) Go to settings manager, appearance and select icons Nordy-Cyan-dark-mod
-3) Go to settings manager, appearance and select fonts Default font Roboto Regular (Optional size 10) 
-4) Go to settings manager, appearance and select fonts Default Monospace font JetBrainsMono Nerd Font Mono Regular (Optional size 10) 
-5) Go to window manager, style and select Everblush-xfwm
-6) Go to mouse and touchpad, theme and select Radioactive-Nord (Optional dark or white theme)
-7) Go to desktop settings, icons and select icon type: none 
-8) Wallpaper settings (optional) go to desktop, folder: other +other location, right click show hidden files, computer/home/user/.local/share/wallpapers, select open folder
-9) Open LightDM settings, select theme:Everblush, icons:Nordy-Cyan-dark-mod, add new custom color:#232a2d (optional you can custom your own icon)
-10) Open window manager tweaks, go to compositor tab, unmark the enable display compositing
-11) Go to session and startup, add Autostart Application, + name:Picom startup, description:picom setup, command:picom, Triger:on login
-12) Right click on task bar, open preference panel, add new item, docklike taskbar, move it under workspace switcher, click on settings, mark show preview thumbnail and appearience none none automatic, force icon size 24, show number of windows opened
-13)Optional add findex to staartup applications, same step as picom #11
-14) Disable lock startup in startup and session, application autostart disable Screen locker
+1) Wallpaper settings (optional) go to desktop, folder: other +other location, right click show hidden files, computer/home/user/.local/share/wallpapers, select open folder
+2) Open LightDM settings, select theme:Everblush, icons:Nordy-Cyan-dark-mod, add new custom color:#232a2d (optional you can custom your own icon)
+3) Disable lock startup in startup and session, application autostart disable Screen locker
+4) Go to session and startup, add Autostart Application, + name:Picom startup, description:picom setup, command:picom, Triger:on login
+5)Optional add findex to staartup applications, same step as picom 
+6) Right click on task bar, open panel, preference panel, go to item tab, click on + to add new item, docklike taskbar, move it under workspace switcher, click on settings, mark show preview thumbnail and appearience none none automatic, force icon size 24, show number of windows opened
+7) Type in terminal "sudo nano /home/kali/.config/xfce4/panel/genmon-15.rc replace path with /home/your_username/genmon-scripts/cpu.sh
+8) Type in terminal "sudo nano /home/kali/.config/xfce4/panel/genmon-16.rc replace path with /home/your_username/genmon-scripts/datetime.sh
+9) Type in terminal "sudo nano /home/kali/.config/xfce4/panel/genmon-17.rc replace path with /home/your_username/genmon-scripts/mem.sh 
+10) Type in terminal "sudo nano /home/kali/.config/xfce4/panel/whiskermenu-8.rc replace button icon with /home/your_username/.assets/icons/shield.svg
+11) Type kill -9 -1
+
+#To enable the eww plugin type the command shift + s or eww open --toggle sidebar
 
 
 
-
-#To enable the eww plugin type the command eww open --toggle sidebar
 
 
 
