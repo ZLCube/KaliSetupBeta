@@ -160,7 +160,8 @@ sudo cp -R $ruta/Components/xfce4-config/xfce4 ~/.config/
 
 sudo apt install -y xfce4-dev-tools libstartup-notification0-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev 
 cd $ruta/github
-git clone https://gitlab.xfce.org/panel-plugins/xfce4-docklike-plugin.git && cd xfce4-docklike-plugin
+git clone https://gitlab.xfce.org/panel-plugins/xfce4-docklike-plugin.git 
+cd xfce4-docklike-plugin
 sudo ./autogen.sh --prefix=/usr/local
 sudo make
 sudo make install 
