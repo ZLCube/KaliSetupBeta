@@ -200,8 +200,7 @@ sudo cp -R $ruta/Components/eww ~/.config/
 
 notify-send "Kali configurado"
 sudo mv $ruta/ManualSteps.txt ~/
-cd $ruta && cd ..
-sudo rm -Rv KaliSetupBeta
+
 
 # Final steps (Manual Setings)
 echo "AVISO 1 Abre el archivo ManualSteps.txt y sigue los pasos"
