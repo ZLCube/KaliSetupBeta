@@ -5,7 +5,8 @@ Manual Steps
 3) Disable lock startup in startup and session, application autostart disable Screen locker
 4) Go to session and startup, add Autostart Application, + name:Picom startup, description:picom setup, command:picom, Triger:on login
 5)Optional add findex to staartup applications, same step as picom 
-6) Right click on task bar, open panel, preference panel, go to item tab, click on + to add new item, docklike taskbar, move it under workspace switcher, click on settings, mark show preview thumbnail and appearience none none automatic, force icon size 24, show number of windows opened
+6) Open KaliSetupBeta folder in termina and execute chmod +x docklike.sh and execute  ./docklike.sh
+   After install right click on task bar, open panel, preference panel, go to item tab, click on + to add new item, docklike taskbar, move it under       workspace switcher,      click on settings, mark show preview thumbnail and appearience none none automatic, force icon size 24, show number of windows opened
 7) Type in terminal "sudo nano /home/kali/.config/xfce4/panel/genmon-15.rc replace path with /home/your_username/genmon-scripts/cpu.sh
 8) Type in terminal "sudo nano /home/kali/.config/xfce4/panel/genmon-16.rc replace path with /home/your_username/genmon-scripts/datetime.sh
 9) Type in terminal "sudo nano /home/kali/.config/xfce4/panel/genmon-17.rc replace path with /home/your_username/genmon-scripts/mem.sh 
