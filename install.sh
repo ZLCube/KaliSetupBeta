@@ -158,16 +158,10 @@ sudo cp -R $ruta/Components/xfce4-config/xfce4 ~/.config/
 
 # Docklike-plugin
 
-sudo apt install -y xfce4-dev-tools libstartup-notification0-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev 
-cd $ruta/github
-git clone https://gitlab.xfce.org/panel-plugins/xfce4-docklike-plugin.git 
-cd xfce4-docklike-plugin
-sudo ./autogen.sh --prefix=/usr/local
-sudo make
-sudo make install 
-sudo cp src/docklike.desktop /usr/share/xfce4/panel/plugins
-sudo cp src/.libs/libdocklike.so /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/
-sudo cp src/libdocklike.la /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/
+cd $ruta
+chmod +x docklike.sh
+./docklike.sh
+cd $ruta
 
 # Findex
 
@@ -205,9 +199,9 @@ sudo cp -R $ruta/Components/eww ~/.config/
 # Mensaje de Instalado
 
 notify-send "Kali configurado"
-
 sudo mv $ruta/ManualSteps.txt ~/
-sudo rm -R KaliSetupBeta
+cd $ruta && cd ..
+sudo rm -Rv KaliSetupBeta
 
 # Final steps (Manual Setings)
 echo "AVISO 1 Abre el archivo ManualSteps.txt y sigue los pasos"
