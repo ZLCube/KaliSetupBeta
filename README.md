@@ -1,5 +1,15 @@
 # Script-Kali
 
+
+ _____ _____ _____ _   _______   _____ _____ ___________  _____ 
+/  ___|  ___|_   _| | | | ___ \ /  ___|_   _|  ___| ___ \/  ___|
+\ `--.| |__   | | | | | | |_/ / \ `--.  | | | |__ | |_/ /\ `--. 
+ `--. \  __|  | | | | | |  __/   `--. \ | | |  __||  __/  `--. \
+/\__/ / |___  | | | |_| | |     /\__/ / | | | |___| |    /\__/ /
+\____/\____/  \_/  \___/\_|     \____/  \_/ \____/\_|    \____/ 
+                                                                
+                                                                
+
 1.- Uso del Script
 
 git clone https://github.com/ZLCube/KaliSetupBeta.git
@@ -8,10 +18,15 @@ cd KaliSetupBeta
 
 chmod +x install.sh
 
+chmod +x docklike.sh
+
 ./install.sh
+
+#=====================================================================================================================================================================#
 
 Este script configura un entorno de kali linux de una forma estetica y eficiente, este script reune componentes de multiples configuraciones tanto para la consola como para la interfaz grafica
 
+#========================================================================CRÉDITOS=====================================================================================#
 
 Les dejo los creditos correspondientes: 
 
@@ -27,9 +42,7 @@ S4vitar https://github.com/s4vitar
 
 ZLCube https://github.com/zlcube
 
-
-
-Mis redes sociales:
+#========================================================================MIS_REDES====================================================================================#
 
 Practicamente ZLCube en todos lados
 
@@ -43,6 +56,7 @@ https://www.twitch.tv/zlcube
 
 https://www.instagram.com/zlcube
 
+#=====================================================================================================================================================================#
 
 A continuación un ejemplo de cómo se ve visualmente, custom p10k, xfce4 panel, docktile preview, kitty terminal, zsh shell, eww side bar, custom neofetch, custom wallpapers, custom mouse, custom logout, custom login, i3lock, etc.
 
