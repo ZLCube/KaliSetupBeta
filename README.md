@@ -46,7 +46,7 @@ https://www.instagram.com/zlcube
 
 A continuación un ejemplo de cómo se ve visualmente, custom p10k, xfce4 panel, docktile preview, kitty terminal, zsh shell, eww side bar, custom neofetch, custom wallpapers, custom mouse, custom logout, custom login, i3lock, etc.
 
-![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/DESK.png)
+![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/DESK.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/custom%20login.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/lockscreen.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/logout.PNG)
