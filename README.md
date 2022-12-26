@@ -48,8 +48,8 @@ A continuación un ejemplo de cómo se ve visualmente, custom p10k, xfce4 panel,
 
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/DESK.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/lockscreen.PNG)
-![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/custom%20login.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/logout.PNG)
+![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/custom%20login.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/mouse.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/preview.PNG)
 ![](https://github.com/ZLCube/KaliSetupBeta/blob/main/Preview/shell.PNG)
