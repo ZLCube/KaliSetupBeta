@@ -12,11 +12,11 @@ chmod +x docklike.sh
 
 ./install.sh
 
-#==========================================================================================#
+#=========================================================================#
 
 Este script configura un entorno de kali linux de una forma estetica y eficiente, este script reune componentes de multiples configuraciones tanto para la consola como para la interfaz grafica
 
-#=====================================CREDITOS==============================================#
+#==============================CREDITOS====================================#
 
 Les dejo los creditos correspondientes: 
 
@@ -32,7 +32,7 @@ S4vitar https://github.com/s4vitar
 
 ZLCube https://github.com/zlcube
 
-#=====================================MIS-REDES=============================================#
+#===============================MIS-REDES==================================#
 
 Practicamente ZLCube en todos lados
 
@@ -46,7 +46,7 @@ https://www.twitch.tv/zlcube
 
 https://www.instagram.com/zlcube
 
-#==========================================================================================#
+#==========================================================================#
 
 A continuación un ejemplo de cómo se ve visualmente, custom p10k, xfce4 panel, docktile preview, kitty terminal, zsh shell, eww side bar, custom neofetch, custom wallpapers, custom mouse, custom logout, custom login, i3lock, etc.
 
